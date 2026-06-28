@@ -1,0 +1,184 @@
+{
+  "en": {
+    "meta": {
+      "title": "Jadoo — Plan Your Next Trip"
+    },
+    "nav": {
+      "services": "Services",
+      "topSelling": "Top Selling",
+      "features": "Features",
+      "testimonials": "Testimonials",
+      "login": "Login",
+      "signup": "Sign up"
+    },
+    "hero": {
+      "subtitle": "Best destinations around the world",
+      "title": "Travel, enjoy and live a new and full life",
+      "text": "Discover handpicked destinations, plan every detail in minutes, and travel with everything already sorted. Your next adventure starts here.",
+      "cta": "Learn More"
+    },
+    "category": {
+      "title": "Category",
+      "subtitle": "We offer the best services",
+      "weatherTitle": "Calculated Weather",
+      "weatherText": "Get accurate forecasts for every stop, so you always pack right and plan ahead.",
+      "flightsTitle": "Best Flights",
+      "flightsText": "We compare routes and fares to find the most convenient flights at the best price.",
+      "eventsTitle": "Local Events",
+      "eventsText": "Discover festivals, tours and experiences happening right where you're headed.",
+      "customTitle": "Customization",
+      "customText": "Tell us how you like to travel and we'll tailor the whole trip around you."
+    },
+    "topSelling": {
+      "title": "Top Selling",
+      "subtitle": "Top Destinations",
+      "romeName": "Rome, Italy",
+      "romeDays": "10 days trip",
+      "londonName": "London, UK",
+      "londonDays": "3 days trip",
+      "lisbonName": "Lisbon, Portugal",
+      "lisbonDays": "4 days trip",
+      "parisName": "Paris, France",
+      "parisDays": "2 days trip",
+      "germanyName": "Germany Tour",
+      "germanyDays": "8 days trip",
+      "switzerlandName": "Switzerland Tour",
+      "switzerlandDays": "10 days trip"
+    },
+    "features": {
+      "title": "Easy and Fast",
+      "subtitle": "Book your next trip in 3 easy steps",
+      "step1Title": "Choose Destination",
+      "step1Text": "Browse our destinations and pick the place that fits your plans.",
+      "step2Title": "Make Payment",
+      "step2Text": "Confirm your trip with quick, secure payment in just a few clicks.",
+      "step3Title": "Reach Airport on Selected Date",
+      "step3Text": "Get your details and reminders, then simply show up and enjoy the trip.",
+      "cardTitle": "Trip to Greece",
+      "cardMeta": "14-29 June | by Robbin Joseph",
+      "cardPeople": "24 people going"
+    },
+    "testimonials": {
+      "title": "Testimonials",
+      "subtitle": "What people say about us",
+      "t1Text": "Everything was organized perfectly from start to finish. I just had to enjoy the trip — the rest was already handled.",
+      "t1Loc": "Lahore, Pakistan",
+      "t2Text": "Booking took just a few minutes and everything was clear. Easily the smoothest travel experience I've had.",
+      "t2Loc": "Traveler, USA",
+      "t3Text": "Great prices, helpful support and a trip that matched exactly what I wanted. I'll definitely book again.",
+      "t3Loc": "Athens, Greece"
+    },
+    "newsletter": {
+      "heading": "Subscribe to get information, the latest news and other interesting offers about Jadoo",
+      "placeholder": "Your e-mail",
+      "submit": "Subscribe"
+    },
+    "footer": {
+      "tagline": "Book your trip in a minute and stay in control all the way.",
+      "company": "Company",
+      "companyAbout": "About",
+      "companyCareers": "Careers",
+      "companyMobile": "Mobile",
+      "contact": "Contact",
+      "contactHelp": "Help / FAQ",
+      "contactPress": "Press",
+      "contactAffiliates": "Affiliates",
+      "more": "More",
+      "moreFees": "Airline Fees",
+      "moreAirlines": "Airlines",
+      "moreTips": "Low Fare Tips",
+      "app": "Get our app on:"
+    }
+  },
+  "tr": {
+    "meta": {
+      "title": "Jadoo — Bir Sonraki Seyahatini Planla"
+    },
+    "nav": {
+      "services": "Hizmetler",
+      "topSelling": "Çok Satanlar",
+      "features": "Özellikler",
+      "testimonials": "Yorumlar",
+      "login": "Giriş Yap",
+      "signup": "Kaydol"
+    },
+    "hero": {
+      "subtitle": "Dünyanın dört bir yanından en güzel rotalar",
+      "title": "Seyahat et, keyfini çıkar, yepyeni ve dolu dolu bir hayat yaşa",
+      "text": "Özenle seçilmiş rotaları keşfet, her detayı dakikalar içinde planla ve her şey hazırken yola çık. Bir sonraki maceran burada başlıyor.",
+      "cta": "Daha Fazla"
+    },
+    "category": {
+      "title": "Kategori",
+      "subtitle": "En iyi hizmetleri sunuyoruz",
+      "weatherTitle": "Güvenilir Hava Durumu",
+      "weatherText": "Her durağın için doğru tahminler al; böylece doğru hazırlan ve önceden plan yap.",
+      "flightsTitle": "En İyi Uçuşlar",
+      "flightsText": "En uygun ve en ekonomik uçuşları bulmak için rotaları ve fiyatları karşılaştırırız.",
+      "eventsTitle": "Yerel Etkinlikler",
+      "eventsText": "Gideceğin yerde seni bekleyen festivalleri, turları ve deneyimleri keşfet.",
+      "customTitle": "Sana Özel Planlama",
+      "customText": "Nasıl seyahat etmeyi sevdiğini söyle, tüm geziyi sana göre tasarlayalım."
+    },
+    "topSelling": {
+      "title": "Çok Satanlar",
+      "subtitle": "Popüler Rotalar",
+      "romeName": "Roma, İtalya",
+      "romeDays": "10 günlük gezi",
+      "londonName": "Londra, İngiltere",
+      "londonDays": "3 günlük gezi",
+      "lisbonName": "Lizbon, Portekiz",
+      "lisbonDays": "4 günlük gezi",
+      "parisName": "Paris, Fransa",
+      "parisDays": "2 günlük gezi",
+      "germanyName": "Almanya Turu",
+      "germanyDays": "8 günlük gezi",
+      "switzerlandName": "İsviçre Turu",
+      "switzerlandDays": "10 günlük gezi"
+    },
+    "features": {
+      "title": "Kolay ve Hızlı",
+      "subtitle": "Bir sonraki seyahatini 3 kolay adımda ayarla",
+      "step1Title": "Rotanı Seç",
+      "step1Text": "Rotalarımıza göz at ve planlarına uyan yeri seç.",
+      "step2Title": "Ödemeni Yap",
+      "step2Text": "Seyahatini hızlı ve güvenli ödemeyle birkaç tıkta onayla.",
+      "step3Title": "Seçtiğin Tarihte Havalimanında Ol",
+      "step3Text": "Tüm bilgilerini ve hatırlatmalarını al; gerisi yalnızca yola çıkıp keyfini sürmek.",
+      "cardTitle": "Yunanistan Gezisi",
+      "cardMeta": "14-29 Haziran | Robbin Joseph ile",
+      "cardPeople": "24 kişi gidiyor"
+    },
+    "testimonials": {
+      "title": "Yorumlar",
+      "subtitle": "Hakkımızda ne diyorlar",
+      "t1Text": "Baştan sona her şey kusursuz organize edilmişti. Bana sadece geziyi keyifle yaşamak kaldı; gerisi çoktan halledilmişti.",
+      "t1Loc": "Lahor, Pakistan",
+      "t2Text": "Rezervasyon yalnızca birkaç dakika sürdü ve her şey çok açıktı. Şimdiye kadar yaşadığım en sorunsuz seyahat deneyimiydi.",
+      "t2Loc": "Gezgin, ABD",
+      "t3Text": "Uygun fiyatlar, yardımsever bir destek ekibi ve tam istediğim gibi bir gezi. Kesinlikle yeniden tercih edeceğim.",
+      "t3Loc": "Atina, Yunanistan"
+    },
+    "newsletter": {
+      "heading": "Jadoo hakkında haberleri, en yeni gelişmeleri ve ilgi çekici fırsatları almak için abone ol",
+      "placeholder": "E-posta adresin",
+      "submit": "Abone Ol"
+    },
+    "footer": {
+      "tagline": "Seyahatini bir dakikada ayarla, baştan sona kontrol sende kalsın.",
+      "company": "Kurumsal",
+      "companyAbout": "Hakkımızda",
+      "companyCareers": "Kariyer",
+      "companyMobile": "Mobil",
+      "contact": "İletişim",
+      "contactHelp": "Yardım / SSS",
+      "contactPress": "Basın",
+      "contactAffiliates": "İş Ortakları",
+      "more": "Daha Fazla",
+      "moreFees": "Havayolu Ücretleri",
+      "moreAirlines": "Havayolları",
+      "moreTips": "Ucuz Bilet İpuçları",
+      "app": "Uygulamamızı indir:"
+    }
+  }
+}

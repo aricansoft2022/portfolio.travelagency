@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary SEO -->
+    <title>Jadoo — Book Your Trip to the World's Best Destinations</title>
+    <meta
+      name="description"
+      content="Plan your next trip with Jadoo. Discover top destinations, compare the best flights and book your whole journey in minutes."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://protfolio-travelagency.pages.dev/" />
+
+    <!-- Open Graph (WhatsApp, Facebook, LinkedIn) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Jadoo" />
+    <meta
+      property="og:title"
+      content="Jadoo — Book Your Trip to the World's Best Destinations"
+    />
+    <meta
+      property="og:description"
+      content="Discover top destinations, compare the best flights and book your whole trip in minutes."
+    />
+    <meta
+      property="og:url"
+      content="https://protfolio-travelagency.pages.dev/"
+    />
+    <meta
+      property="og:image"
+      content="https://protfolio-travelagency.pages.dev/img/decorative/hero-img.webp"
+    />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="tr_TR" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Jadoo — Book Your Trip to the World's Best Destinations"
+    />
+    <meta
+      name="twitter:description"
+      content="Discover top destinations, compare the best flights and book your whole trip in minutes."
+    />
+    <meta
+      name="twitter:image"
+      content="https://protfolio-travelagency.pages.dev/img/decorative/hero-img.webp"
+    />
+
+    <!-- Icon -->
+    <link rel="icon" type="image/svg+xml" href="./img/logo.svg" />
+
+    <!-- Fonts & libraries -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+    <script src="./i18n.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <div class="logo"><img src="./img/logo.svg" alt="Jadoo Logo" /></div>
+          <menu>
+            <ul class="main-menu-ul ul-hidden">
+              <li>
+                <a
+                  class="hash-link"
+                  href="#category-section"
+                  data-i18n="nav.services"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hash-link"
+                  href="#top-selling-section"
+                  data-i18n="nav.topSelling"
+                  >Top Selling</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hash-link"
+                  href="#features-section"
+                  data-i18n="nav.features"
+                  >Features</a
+                >
+              </li>
+              <li>
+                <a
+                  class="hash-link"
+                  href="#testimonials-section"
+                  data-i18n="nav.testimonials"
+                  >Testimonials</a
+                >
+              </li>
+              <li data-i18n="nav.login">Login</li>
+              <li>
+                <a href="#" class="sign-up-btn" data-i18n="nav.signup"
+                  >Sign up</a
+                >
+              </li>
+              <li>
+                <select name="lang" id="lang-select">
+                  <option value="en">EN</option>
+                  <option value="tr">TR</option>
+                </select>
+              </li>
+            </ul>
+            <button class="hamburger-btn">
+              <img src="./img/hamburger.svg" alt="" />
+            </button>
+            <div class="top-menu-overlay hidden"></div>
+          </menu>
+        </nav>
+        <div class="hero">
+          <div class="hero-text-elements">
+            <h2 class="hero-subtitle" data-i18n="hero.subtitle">
+              Best destinations around the world
+            </h2>
+            <h1 class="hero-title" data-i18n="hero.title">
+              Travel, enjoy and live a new and full life
+            </h1>
+            <p class="hero-p" data-i18n="hero.text">
+              Discover handpicked destinations, plan every detail in minutes,
+              and travel with everything already sorted. Your next adventure
+              starts here.
+            </p>
+            <div class="hero-cta">
+              <a href="#" data-i18n="hero.cta">Learn More</a>
+            </div>
+          </div>
+          <div class="hero-img">
+            <img src="./img/decorative/hero-img.webp" alt="" />
+          </div>
+        </div>
+      </header>
+      <span id="category-section"></span>
+      <section class="category not-intersected">
+        <h3 class="section-title" data-i18n="category.title">Category</h3>
+        <h2 class="section-subtitle" data-i18n="category.subtitle">
+          We offer the best services
+        </h2>
+        <div class="services">
+          <div class="service">
+            <img src="./img/services/weather.svg" alt="" />
+            <h4 data-i18n="category.weatherTitle">Calculated Weather</h4>
+            <p data-i18n="category.weatherText">
+              Get accurate forecasts for every stop, so you always pack right
+              and plan ahead.
+            </p>
+          </div>
+          <div class="service">
+            <img src="./img/services/flight.svg" alt="" />
+            <h4 data-i18n="category.flightsTitle">Best Flights</h4>
+            <p data-i18n="category.flightsText">
+              We compare routes and fares to find the most convenient flights at
+              the best price.
+            </p>
+          </div>
+          <div class="service">
+            <img src="./img/services/events.svg" alt="" />
+            <h4 data-i18n="category.eventsTitle">Local Events</h4>
+            <p data-i18n="category.eventsText">
+              Discover festivals, tours and experiences happening right where
+              you're headed.
+            </p>
+          </div>
+          <div class="service">
+            <img src="./img/services/customization.svg" alt="" />
+            <h4 data-i18n="category.customTitle">Customization</h4>
+            <p data-i18n="category.customText">
+              Tell us how you like to travel and we'll tailor the whole trip
+              around you.
+            </p>
+          </div>
+        </div>
+      </section>
+      <span id="top-selling-section"></span>
+      <section class="top-selling not-intersected">
+        <h3 class="section-title" data-i18n="topSelling.title">Top Selling</h3>
+        <h2 class="section-subtitle" data-i18n="topSelling.subtitle">
+          Top Destinations
+        </h2>
+        <!-- TOP DESTINATIONS SLIDER -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <article class="top-destination">
+                <div class="top-destination-content">
+                  <div class="top-destination-img">
+                    <img
+                      src="./img/destinations/rome.webp"
+                      alt="an image from Rome"
+                    />
+                  </div>
+                  <div class="name-and-price">
+                    <span data-i18n="topSelling.romeName">Rome, Italy</span
+                    ><span>$5,42k</span>
+                  </div>
+                  <div class="trip-day-info">
+                    <img src="./img/decorative/trip.svg" alt="" /><span
+                      data-i18n="topSelling.romeDays"
+                      >10 days trip</span
+                    >
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="top-destination">
+                <div class="top-destination-content">
+                  <div class="top-destination-img">
+                    <img
+                      src="./img/destinations/london.webp"
+                      alt="an image from London"
+                    />
+                  </div>
+                  <div class="name-and-price">
+                    <span data-i18n="topSelling.londonName">London, UK</span
+                    ><span>$2,42k</span>
+                  </div>
+                  <div class="trip-day-info">
+                    <img src="./img/decorative/trip.svg" alt="" /><span
+                      data-i18n="topSelling.londonDays"
+                      >3 days trip</span
+                    >
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="top-destination">
+                <div class="top-destination-content">
+                  <div class="top-destination-img">
+                    <img
+                      src="./img/destinations/lisbon.webp"
+                      alt="an image from Lisbon"
+                    />
+                  </div>
+                  <div class="name-and-price">
+                    <span data-i18n="topSelling.lisbonName"
+                      >Lisbon, Portugal</span
+                    ><span>$3,12k</span>
+                  </div>
+                  <div class="trip-day-info">
+                    <img src="./img/decorative/trip.svg" alt="" /><span
+                      data-i18n="topSelling.lisbonDays"
+                      >4 days trip</span
+                    >
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="top-destination">
+                <div class="top-destination-content">
+                  <div class="top-destination-img">
+                    <img
+                      src="./img/destinations/paris.webp"
+                      alt="an image from Paris"
+                    />
+                  </div>
+                  <div class="name-and-price">
+                    <span data-i18n="topSelling.parisName">Paris, France</span
+                    ><span>$1,42k</span>
+                  </div>
+                  <div class="trip-day-info">
+                    <img src="./img/decorative/trip.svg" alt="" /><span
+                      data-i18n="topSelling.parisDays"
+                      >2 days trip</span
+                    >
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="top-destination">
+                <div class="top-destination-content">
+                  <div class="top-destination-img">
+                    <img
+                      src="./img/destinations/germany.webp"
+                      alt="an image from Germany"
+                    />
+                  </div>
+                  <div class="name-and-price">
+                    <span data-i18n="topSelling.germanyName">Germany Tour</span
+                    ><span>$7,11k</span>
+                  </div>
+                  <div class="trip-day-info">
+                    <img src="./img/decorative/trip.svg" alt="" /><span
+                      data-i18n="topSelling.germanyDays"
+                      >8 days trip</span
+                    >
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="top-destination">
+                <div class="top-destination-content">
+                  <div class="top-destination-img">
+                    <img
+                      src="./img/destinations/switzerland.webp"
+                      alt="an image from Switzerland"
+                    />
+                  </div>
+                  <div class="name-and-price">
+                    <span data-i18n="topSelling.switzerlandName"
+                      >Switzerland Tour</span
+                    ><span>$11,11k</span>
+                  </div>
+                  <div class="trip-day-info">
+                    <img src="./img/decorative/trip.svg" alt="" /><span
+                      data-i18n="topSelling.switzerlandDays"
+                      >10 days trip</span
+                    >
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+        <!-- TOP DESTINATIONS SLIDER END -->
+      </section>
+      <span id="features-section"></span>
+      <section class="features-section not-intersected">
+        <div class="features-left">
+          <h3 class="section-title" data-i18n="features.title">
+            Easy and Fast
+          </h3>
+          <h2 class="section-subtitle" data-i18n="features.subtitle">
+            Book your next trip in 3 easy steps
+          </h2>
+          <div class="feature">
+            <div class="feature-icon">
+              <img src="./img/decorative/features/destination.svg" alt="" />
+            </div>
+            <div class="feature-text">
+              <h4 data-i18n="features.step1Title">Choose Destination</h4>
+              <p data-i18n="features.step1Text">
+                Browse our destinations and pick the place that fits your plans.
+              </p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">
+              <img src="./img/decorative/features/payment.svg" alt="" />
+            </div>
+            <div class="feature-text">
+              <h4 data-i18n="features.step2Title">Make Payment</h4>
+              <p data-i18n="features.step2Text">
+                Confirm your trip with quick, secure payment in just a few
+                clicks.
+              </p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">
+              <img src="./img/decorative/features/airport.svg" alt="" />
+            </div>
+            <div class="feature-text">
+              <h4 data-i18n="features.step3Title">
+                Reach Airport on Selected Date
+              </h4>
+              <p data-i18n="features.step3Text">
+                Get your details and reminders, then simply show up and enjoy
+                the trip.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="features-right">
+          <div class="trip-card">
+            <div class="trip-card-img">
+              <img
+                src="./img/destinations/greece.webp"
+                alt="an image from Greece"
+                class="trip-img"
+              />
+            </div>
+            <h4 data-i18n="features.cardTitle">Trip to Greece</h4>
+            <p data-i18n="features.cardMeta">14-29 June | by Robbin Joseph</p>
+            <div class="trip-card-icons">
+              <div class="trip-card-icon">
+                <img src="./img/decorative/trip-card/leaf.svg" alt="" />
+              </div>
+              <div class="trip-card-icon">
+                <img src="./img/decorative/trip-card/map.svg" alt="" />
+              </div>
+              <div class="trip-card-icon">
+                <img src="./img/decorative/trip-card/direction.svg" alt="" />
+              </div>
+            </div>
+            <div class="people-going-like">
+              <div class="people-going">
+                <img src="./img/decorative/trip-card/person-going.svg" alt="" />
+                <p data-i18n="features.cardPeople">24 people going</p>
+              </div>
+              <img src="./img/decorative/trip-card/heart.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <span id="testimonials-section"></span>
+      <section class="testimonials-section not-intersected">
+        <h3 class="section-title" data-i18n="testimonials.title">
+          Testimonials
+        </h3>
+        <h2 class="section-subtitle" data-i18n="testimonials.subtitle">
+          What people say about us
+        </h2>
+        <div class="testimonials">
+          <div class="testimonial">
+            <img src="./img/avatars/avatar-1.webp" alt="Mike Tylor" />
+            <p data-i18n="testimonials.t1Text">
+              Everything was organized perfectly from start to finish. I just
+              had to enjoy the trip — the rest was already handled.
+            </p>
+            <address>
+              <h5>Mike Tylor</h5>
+              <span data-i18n="testimonials.t1Loc">Lahore, Pakistan</span>
+            </address>
+          </div>
+          <div class="testimonial">
+            <img src="./img/avatars/avatar-2.webp" alt="Jessie Seram" />
+            <p data-i18n="testimonials.t2Text">
+              Booking took just a few minutes and everything was clear. Easily
+              the smoothest travel experience I've had.
+            </p>
+            <address>
+              <h5>Jessie Seram</h5>
+              <span data-i18n="testimonials.t2Loc">Traveler, USA</span>
+            </address>
+          </div>
+          <div class="testimonial">
+            <img src="./img/avatars/avatar-3.webp" alt="Smith Kane" />
+            <p data-i18n="testimonials.t3Text">
+              Great prices, helpful support and a trip that matched exactly what
+              I wanted. I'll definitely book again.
+            </p>
+            <address>
+              <h5>Smith Kane</h5>
+              <span data-i18n="testimonials.t3Loc">Athens, Greece</span>
+            </address>
+          </div>
+        </div>
+      </section>
+      <section class="brands not-intersected">
+        <figure class="brand">
+          <img src="./img/brands/axon.svg" alt="Axon Logo" />
+        </figure>
+        <figure class="brand">
+          <img src="./img/brands/jetstar.svg" alt="JetStar Logo" />
+        </figure>
+        <figure class="brand">
+          <img src="./img/brands/expedia.svg" alt="Expedia Logo" />
+        </figure>
+        <figure class="brand">
+          <img src="./img/brands/qantas.svg" alt="Qantas Logo" />
+        </figure>
+        <figure class="brand">
+          <img src="./img/brands/alitalia.svg" alt="Alitalia Logo" />
+        </figure>
+      </section>
+      <section class="newsletter-section not-intersected">
+        <article class="newsletter-container">
+          <img src="./img/decorative/newsletter-icon.svg" alt="" />
+          <h3 data-i18n="newsletter.heading">
+            Subscribe to get information, the latest news and other interesting
+            offers about Jadoo
+          </h3>
+          <form action="#" class="newsletter-form">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your e-mail"
+              data-i18n-placeholder="newsletter.placeholder"
+            />
+            <input
+              type="submit"
+              id="subscribe-submit"
+              value="Subscribe"
+              data-i18n-value="newsletter.submit"
+            />
+          </form>
+        </article>
+      </section>
+      <footer>
+        <div class="footer-column">
+          <img src="./img/footer-logo.svg" alt="Jadoo Logo" />
+          <p data-i18n="footer.tagline">
+            Book your trip in a minute and stay in control all the way.
+          </p>
+        </div>
+        <div class="footer-column">
+          <h5 data-i18n="footer.company">Company</h5>
+          <ul class="footer-ul">
+            <li data-i18n="footer.companyAbout">About</li>
+            <li data-i18n="footer.companyCareers">Careers</li>
+            <li data-i18n="footer.companyMobile">Mobile</li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h5 data-i18n="footer.contact">Contact</h5>
+          <ul class="footer-ul">
+            <li data-i18n="footer.contactHelp">Help / FAQ</li>
+            <li data-i18n="footer.contactPress">Press</li>
+            <li data-i18n="footer.contactAffiliates">Affiliates</li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h5 data-i18n="footer.more">More</h5>
+          <ul class="footer-ul">
+            <li data-i18n="footer.moreFees">Airline Fees</li>
+            <li data-i18n="footer.moreAirlines">Airlines</li>
+            <li data-i18n="footer.moreTips">Low Fare Tips</li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <div class="social-and-app">
+            <i class="social-icon fb-icon bx bxl-facebook-circle"></i>
+            <i class="social-icon ig-icon bx bxl-instagram-alt"></i>
+            <i class="social-icon tw-icon bx bxl-twitter"></i>
+            <span data-i18n="footer.app">Get our app on:</span>
+            <i class="store-icon pl-icon bx bxl-play-store"></i>
+            <i class="store-icon ap-icon bx bxl-apple"></i>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Cloudflare Web Analytics -->
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "cbd54ff572e84530a53e3847efad24af"}'
+    ></script>
+    <!-- End Cloudflare Web Analytics -->
+  </body>
+</html>
